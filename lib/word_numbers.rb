@@ -4,7 +4,7 @@ class Fixnum
 
     trans_hash_teens ={0 => "ten", 1 => "eleven", 2 => "twelve", 3 => "thirteen", 4 => "fourteen", 5 => "fifteen", 6 => "sixteen", 7 => "seventeen", 8 => "eighteen", 9 => "nineteen"}
 
-    trans_hash_tens = {2 => "twenty", 3 => "thirty", 4 => "forty", 5 => "fifty", 6 => "sixty", 7 => "seventy", 8 => "eighty", 9 => "ninety"}
+    trans_hash_tens = {2 => "twenty", 3 => "thirty", 4 => "forty", 5 => "fifty", 6 => "sixty", 7 => "woseventy", 8 => "eighty", 9 => "ninety"}
 
     num_array = self.to_s.split(//)
     num_length = num_array.length()
